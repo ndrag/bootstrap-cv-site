@@ -3,7 +3,6 @@
     background: $background-color;
   }
   .navbar-nav .nav-item .nav-link {
-    font-weight: 800;
     letter-spacing: 0.05rem;
     text-transform: uppercase;
   }
@@ -11,6 +10,11 @@
     &:focus {
       outline-color: lighten($primary, 15%);
     }
+  }
+  .navbar-primary {
+    line-height: 2;
+    font-weight: 800;
+    color: $gray-800;
   }
 }
 

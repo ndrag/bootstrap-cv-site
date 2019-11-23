@@ -1,7 +1,6 @@
 section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
-  max-width: 75rem;
   .resume-item {
     .resume-date {
       min-width: none;
@@ -23,4 +22,8 @@ section.resume-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
   }
+}
+
+section.resume-section.grey {
+  background-color: $grey-200;
 }
