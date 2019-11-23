@@ -120,6 +120,7 @@ p.lead {
 }
 
 #sideNav .navbar-primary {
+  line-height: 2;
   font-weight: 800;
   color: #343a40;
 }
@@ -167,7 +168,6 @@ p.lead {
 section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
-  max-width: 75rem;
 }
 
 section.resume-section .resume-item .resume-date {
@@ -190,8 +190,8 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
-section.resume-section .grey {
-  color: red;
+section.resume-section.alternating-background {
+  background-color: #f6f7f8;
 }
 
 .bg-primary {
