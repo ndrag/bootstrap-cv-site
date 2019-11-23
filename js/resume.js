@@ -25,4 +25,8 @@
     target: '#sideNav'
   });
 
+$('#profile-carousel').carousel({
+    interval: false
+});
+
 })(jQuery); // End of use strict
