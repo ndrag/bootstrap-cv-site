@@ -192,6 +192,12 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
+@media (min-width: 1250px) {
+  .scaling-image-container {
+    max-width: 70%;
+  }
+}
+
 section.resume-section.alternating-background {
   background-color: #f5f6f7;
 }
