@@ -222,3 +222,7 @@ a {
 a:hover, a:focus, a:active {
   color: #4c6b8e;
 }
+
+w-80 {
+  width: 80%;
+}
