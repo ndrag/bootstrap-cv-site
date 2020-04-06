@@ -9,7 +9,7 @@
 - `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
 - `gulp js` minifies the themes JS file
 - `gulp vendor` copies dependencies from node_modules to the vendor directory
-- `gulp deploy` minifies, packages, and deploys the release build
+- `gulp publish` minifies, packages, and deploys the release build
 
 ## About
 
