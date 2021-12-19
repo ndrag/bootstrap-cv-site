@@ -1,3 +1,5 @@
 node_modules
 deploy
 vendor
+css/resume.min.css
+js/resume.min.js
