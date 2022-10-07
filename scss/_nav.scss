@@ -6,6 +6,11 @@
     letter-spacing: 0.05rem;
     text-transform: uppercase;
   }
+
+  .navbar-nav .nav-item .nav-link.external-link {
+    color: $emphasis-blue;
+  }
+
   .navbar-toggler {
     &:focus {
       outline-color: lighten($primary, 15%);
