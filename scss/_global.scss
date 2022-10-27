@@ -5,6 +5,7 @@ body {
   padding-top: 54px;
   color: $gray-600;
 }
+
 @media (min-width: 992px) {
   body {
     padding-top: 0;
@@ -92,9 +93,11 @@ ul.text-content li {
     font-size: 1.5rem;
     line-height: 3.5rem;
     margin-right: 1rem;
+
     &:last-child {
       margin-right: 0;
     }
+
     &:hover {
       background-color: $primary;
     }
@@ -103,9 +106,30 @@ ul.text-content li {
 
 .dev-icons {
   font-size: 3rem;
+
   .list-inline-item i {
     &:hover {
       color: $primary;
     }
   }
+}
+
+.wfg-splash {
+  --tw-gradient-from: #9c2eb7;
+  --tw-gradient-to: rgba(156, 46, 183, 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  --tw-bg-opacity: 1;
+  background-color: rgb(89 180 233/var(--tw-bg-opacity));
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical-centre {
+  min-height: 100%; 
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  flex-direction: column;
 }
